@@ -1,28 +1,47 @@
-これをコピーして、GitHubの `index.html` の編集画面にそのまま貼り付けてください。貼れたら「Commit changes」を押してください。
-
-```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tomoki's Gadget Lab</title>
-<meta name="description" content="留学生・海外生活・一人暮らしに役立つガジェットを紹介するブログです。">
+<title>暮らしガジェット研究所</title>
+<meta name="description" content="一人暮らしや留学など、毎日の暮らしで本当に役立ったガジェットを紹介するブログです。">
 <style>
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;background:#f6f8fa;color:#222;line-height:1.8}
   header{background:#1f3a5f;color:#fff;padding:48px 20px;text-align:center}
   header h1{margin:0;font-size:1.9rem}
   header p{margin:12px 0 0;opacity:.9}
+  header a{color:#fff;text-decoration:none}
   main{max-width:680px;margin:32px auto;padding:0 20px}
   .card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin-bottom:20px}
   h2{font-size:1.2rem;margin-top:0}
-  footer{text-align:center;font-size:.85rem;color:#777;padding:24px}
+  article h2{margin:1.7em 0 .55em;padding-top:.2em;border-top:1px solid #eee}
+  article h2:first-of-type{border-top:0;padding-top:0}
+  article p,article ul,article ol{margin:0 0 1em}
+  article ul,article ol{padding-left:1.4em}
+  article li{margin:.25em 0}
+  a{color:#1f3a5f}
+  .back{margin:0 0 16px;font-size:.95rem}
+  .back a{color:#1f3a5f;font-weight:600}
+  .disclosure{background:#fff8e6;border:1px solid #f0d78c;border-radius:8px;padding:12px 16px;font-size:.92rem;margin:0 0 16px}
+  .meta{color:#555;font-size:.92rem}
+  .placeholder{background:#fff3a3;border:1px dashed #c9a227;border-radius:8px;padding:14px 16px;margin:20px 0}
+  .placeholder .label{display:block;font-size:.8rem;color:#7a5b00;font-weight:700;margin-bottom:4px}
+  .cta-wrap{text-align:center;margin:24px 0 8px}
+  .cta{display:inline-block;background:#1f3a5f;color:#fff !important;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:600}
+  .article-list{list-style:none;padding:0;margin:0}
+  .article-list li{margin:0;padding:16px 0;border-top:1px solid #eee}
+  .article-list li:first-child{border-top:0;padding-top:0}
+  .article-list a{color:#1f3a5f;font-weight:600;text-decoration:none}
+  .article-list a:hover{text-decoration:underline}
+  .article-list .desc{display:block;font-weight:normal;color:#555;margin-top:4px}
+  footer{text-align:center;font-size:.85rem;color:#777;padding:24px 20px 32px}
+  footer .assoc{display:block;margin-top:8px;max-width:680px;margin-left:auto;margin-right:auto}
 </style>
 </head>
 <body>
 <header>
-  <h1>Tomoki's Gadget Lab</h1>
-  <p>留学生・海外生活・一人暮らしに役立つガジェットを紹介します</p>
+  <h1>暮らしガジェット研究所</h1>
+  <p>一人暮らしや留学の毎日で、本当に役立ったガジェットを紹介します</p>
 </header>
 <main>
   <div class="card">
@@ -30,11 +49,22 @@
     <p>オーストラリアに留学中の筆者が、海外での生活や一人暮らしで本当に役立ったスマホ・パソコン周辺機器やガジェットを、実体験をもとに紹介していきます。</p>
   </div>
   <div class="card">
-    <h2>記事は準備中です</h2>
-    <p>モバイルバッテリー、海外対応の変換プラグなど、最初の記事を近日公開予定です。お楽しみに。</p>
+    <h2>記事一覧</h2>
+    <ul class="article-list">
+      <li>
+        <a href="power-bank.html">留学・一人暮らしにおすすめの薄型モバイルバッテリー（Anker Power Bank 10000mAh）</a>
+        <span class="desc">機内に持ち込みやすい10,000mAh。残量ディスプレイとUSB-Cケーブル付きの定番モデルを紹介します。</span>
+      </li>
+      <li>
+        <a href="adapter.html">留学・海外生活に必須の変換プラグ（TESSAN 全世界対応）</a>
+        <span class="desc">オーストラリアのOタイプを含むC・BF・O・A対応。USBポート付きで、出発前に確認したい電圧の注意点もまとめました。</span>
+      </li>
+    </ul>
   </div>
 </main>
-<footer>&copy; 2026 Tomoki's Gadget Lab</footer>
+<footer>
+  &copy; 2026 暮らしガジェット研究所
+  <span class="assoc">Amazonのアソシエイトとして、暮らしガジェット研究所は適格販売により収入を得ています。</span>
+</footer>
 </body>
 </html>
-```
